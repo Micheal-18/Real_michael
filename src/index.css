@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  background: #0a0a0a;
+  color: #f3f4f6;
+}
+
+@layer utilities {
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  .animate-blink {
+    animation: blink 0.9s step-end infinite;
+  }
+
+  @keyframes loading {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(250%); }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.9s ease infinite;
+  }
+
+  @keyframes slide {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
+  }
+
+  .animate-slide {
+    animation: slide 1s ease forwards;
+  }
+
+  @keyframes left {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
+  }
+
+  .animation-left {
+    animation: left 1s ease-in forwards;
+  }
+
+  @keyframes right {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0%); }
+  }
+
+  .animation-right {
+    animation: right 1s ease-in forwards;
+  }
+}
+
+.reveal{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes walk-across {
+    0% {
+      transform: translateX(-100vw);
+    }
+    100% {
+      transform: translateX(100vw);
+    }
+}
+
+.animation-walk {
+    animation: walk-across 10s linear infinite;
+}
+
+
