@@ -10,7 +10,7 @@ import RevealOnScroll from '../components/RevealOnScroll';
 const Services = () => {
 
   const { ref: Ref, inView: InView } = useInView({
-    threshold: 0.1,
+    threshold: 0,
     triggerOnce: true
   });
 
