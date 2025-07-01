@@ -26,7 +26,7 @@ const Navbar = () => {
                     <li className='hover:text-yellow-500'><a href="#Testimonal" onClick={closeMenu}>Testimonial</a></li>
                 </ul>
                 <div className='hidden md:flex items-center'>
-                    <Link to="/Message"><button className='text-white text-center p-2 rounded-md ml-2  border border-white border-solid bg-gradient-to-r from-yellow-500 via-yellow to-black transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 text-lg'>Message</button></Link>
+                    <Link to="/Message"><button className='text-white cursor-pointer text-center p-2 rounded-md ml-2  border border-white border-solid bg-gradient-to-r from-yellow-500 via-yellow to-black transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 text-lg'>Message</button></Link>
                 </div>
                 <div className='md:hidden text-3xl text-white cursor-pointer' onClick={handleClick}>
                     {click ? <FiX /> : <FiMenu />}
