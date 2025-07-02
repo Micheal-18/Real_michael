@@ -44,7 +44,7 @@ const Home = () => {
               <a href='#Services'>
                 <button className='text-white cursor-pointer text-center px-4 py-2 mt-3 rounded-md border-1 border-white border-solid  bg-gradient-to-r from-yellow-500 via-yellow to-black transition  duration-200 ease-in-out hover:-translate-y-1 hover:scale-110  text-lg'>Project</button>
               </a>
-              <a href='https://drive.google.com/file/d/1D4yULm9eNeJW55fZIYZYw4xjM8uqG12J/view?usp=sharingn'><button className='text-white text-center px-4 mr-5 py-2 mt-3 rounded-md border-1 border-white border-solid cursor-pointer bg-gradient-to-r from-black via-yellow to-yellow-500 transition  duration-200 ease-in-out hover:-translate-y-1 hover:scale-110  text-lg'>Resume</button></a>
+              <a href='https://drive.google.com/file/d/1D4yULm9eNeJW55fZIYZYw4xjM8uqG12J/view?usp=sharing'><button className='text-white text-center px-4 mr-5 py-2 mt-3 rounded-md border-1 border-white border-solid cursor-pointer bg-gradient-to-r from-black via-yellow to-yellow-500 transition  duration-200 ease-in-out hover:-translate-y-1 hover:scale-110  text-lg'>Resume</button></a>
             </div>
           </div>
         </div>

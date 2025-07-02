@@ -20,11 +20,11 @@ const Navbar = () => {
         <div className='w-full fixed top-0 p-4 md:p-4 bg-black backdrop-blur-lg  opacity-90 z-50'>
             <div className='flex justify-between  mx-auto px-4 items-center'>
                 <div className='flex items-center gap-4'>
-                    <a href="/"><img src={logo} alt='logo' className='w-10 h-10 rounded-full' /></a>
+                    <a href="#"><img src={logo} alt='logo' className='w-10 h-10 rounded-full' /></a>
                     {/* <h1 className='text-2xl text-yellow-500 font-bold'>Eleks</h1> */}
                 </div>
                 <ul className='text-center text-white gap-8 hidden md:flex items-center'>
-                    <li className='hover:text-yellow-500'><a href="/" onClick={closeMenu}>Home</a></li>
+                    <li className='hover:text-yellow-500'><a href="#" onClick={closeMenu}>Home</a></li>
                     <li className='hover:text-yellow-500'><a href="#Biography" onClick={closeMenu}>Biography</a></li>
                     <li className='hover:text-yellow-500'><a href="#Services" onClick={closeMenu}>Service</a></li>
                     <li className='hover:text-yellow-500'><a href="#Testimonal" onClick={closeMenu}>Testimonial</a></li>
