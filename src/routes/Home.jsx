@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useInView } from 'react-intersection-observer';
 import img1 from "../assets/glass.png"
-import RevealOnScroll from '../components/RevealOnScroll';
+// import RevealOnScroll from '../components/RevealOnScroll';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -32,13 +32,12 @@ const Home = () => {
 
   return (
 
-    <RevealOnScroll>
+    // <RevealOnScroll>
       <div className='flex flex-col w-full h-[100vh] justify-center items-center '>
-        <div className='flex gap-6 items-center px-8'>
-          {/*left section*/}
+        <div  className='flex gap-6 items-center px-8'>
 
-          <div className='mt-10 text-center md:text-center ' >
-            <h1 className="text-transparent bg-gradient-to-r from-yellow-500 via-black-500 to-white bg-clip-text text-5xl font-semibold md:text-7xl">{text}</h1>
+          <div data-aos="fade-out" className='mt-10 text-center md:text-center ' >
+            <h1  className="text-transparent bg-gradient-to-r from-yellow-500 via-black-500 to-white bg-clip-text text-5xl font-semibold md:text-7xl">{text}</h1>
             <p className='text-white md:text-lg  max-w-lg leading-relaxed mx-auto'>I'm a dedicated programmer with a strong passion for solving problems through clean, efficient code. I enjoy building applications that are not only functional but also optimized for performance and user experience. </p>
             <div className='flex justify-center gap-4'>
               <a href='#Services'>
@@ -49,7 +48,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </RevealOnScroll>
+    // </RevealOnScroll>
 
 
 

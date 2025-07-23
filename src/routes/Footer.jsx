@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <section className='flex items-center justify-center py-10 bg-gradient-to-r from-black to-gray-900 opacity-90'>
             <div className='max-w-5xl mx-auto px-4'>
-                <div className='flex flex-col jusitfy-center items-center text-center text-white/80'>
+                <div data-aos="fade-out" className='flex flex-col jusitfy-center items-center text-center text-white/80'>
                     <p>© 2025 Eleke Imammachukwu Michael. All rights reserved.</p>
                     <p>Follow me on social media!</p>
                     <div className='flex gap-4  mt-4'>

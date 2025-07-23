@@ -37,7 +37,7 @@ const Navbar = () => {
                 </div>
             </div>
             {click && (
-                <ul className='flex flex-col items-center gap-8 pt-20 pb-8 px-4 text-2xl text-white bg-black opacity-90 transition duration-300 ease-in-out absolute top-16 left-0 w-full z-40 md:hidden'>
+                    <ul className='flex flex-col items-center gap-8 pt-20 pb-8 px-4 text-2xl text-white bg-black opacity-90 transition duration-300 ease-in-out absolute top-16 left-0 w-full z-40 md:hidden'>
                     <li className='hover:text-yellow-500'><a href="#Home" onClick={closeMenu}>Home</a></li>
                     <li className='hover:text-yellow-500'><a href="#Biography" onClick={closeMenu}>Biography</a></li>
                     <li className='hover:text-yellow-500'><a href="#Services" onClick={closeMenu}>Services</a></li>

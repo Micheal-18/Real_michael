@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './routes/Home'
 import Service from './routes/Services'
@@ -10,9 +10,23 @@ import Navbar from "./components/Navbar"
 import Footer from './routes/Footer'
 import "./index.css";
 import SimpleNavbar from './components/SimpleNavbar'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false)
+
+    useEffect(() => {
+    AOS.init(
+      {
+        duration: 2000,
+        easing: "ease",
+        delay: 100,
+        offset: 100,       
+      }
+    );
+    AOS.refresh();
+  }, []);
 
   return (
     <div>

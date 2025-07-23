@@ -28,7 +28,7 @@ body {
     animation: loading 0.9s ease infinite;
   }
 
-  @keyframes slide {
+  /* @keyframes slide {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(0%); }
   }
@@ -53,8 +53,8 @@ body {
 
   .animation-right {
     animation: right 1s ease-in forwards;
-  }
-}
+  }*/
+} 
 
 .reveal{
   opacity: 0;
