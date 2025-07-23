@@ -2,7 +2,7 @@ import React from 'react'
 import img3 from "../assets/port.png"
 import img4 from "../assets/food.png"
 import img5 from "../assets/ecom.png"
-import { useInView } from 'react-intersection-observer'
+// import { useInView } from 'react-intersection-observer'
 import { FaArrowRight } from 'react-icons/fa'
 import RevealOnScroll from '../components/RevealOnScroll';
 
