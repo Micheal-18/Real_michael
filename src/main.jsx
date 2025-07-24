@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
 
+const base = window.location.pathname.includes('/Real_michael')
+  ? '/Real_michael'
+  : '/';
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={base}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
