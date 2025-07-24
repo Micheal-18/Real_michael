@@ -8,7 +8,6 @@ const base = window.location.pathname.includes('/Real_michael')
   ? '/Real_michael'
   : '/';
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename={base}>

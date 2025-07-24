@@ -4,7 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.NODE_ENV === "production" && process.env.GITHUB_ACTIONS
-    ? "/Real_michael/"
-    : "/"
+ base: process.env.VITE_GITHUB_PAGES === 'true' ? '/Real_michael/' : '/'
 })
