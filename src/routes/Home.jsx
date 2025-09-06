@@ -33,7 +33,7 @@ const Home = () => {
   return (
 
     // <RevealOnScroll>
-      <div className='flex flex-col w-full h-[100vh] justify-center items-center '>
+      <div className='flex flex-col w-full h-[100vh] justify-center items-center overflow-hidden'>
         <div  className='flex gap-6 items-center px-8'>
 
           <div data-aos="fade-out" className='mt-10 text-center md:text-center ' >
