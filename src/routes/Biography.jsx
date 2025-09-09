@@ -38,7 +38,7 @@ const Biography = () => {
             <img data-aos="zoom-in" className='h-[60vh] w-auto md:w-[400px] object-cover hover:-translate-y-1 rounded-lg border-2 border-yellow-500' src={img2} alt='pic' />
 
           <div className='text-white md:text-left text-left'>
-            <p data-aos="slide-left" className='text-white  md:text-lg text-base  leading-relaxed max-w-3xl mx-auto'>
+            <p data-aos="fade-out" className='text-white  md:text-lg text-base  leading-relaxed max-w-3xl mx-auto'>
               I'm a passionate front-end developer with a love for crafting interactive, accessible, and visually appealing web experiences. With a keen eye for detail and a solid foundation in modern technologies like React, Tailwind CSS, and JavaScript, I focus on building responsive, performant, and user-friendly interfaces.
 
               Beyond coding, I enjoy learning new tools and design principles to keep delivering fresh, innovative solutions. I believe in continuous improvement, problem-solving, and building applications that don't just work — but feel great to use.
