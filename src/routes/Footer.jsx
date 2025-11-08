@@ -13,9 +13,9 @@ const Footer = () => {
                     <p>© 2025 Eleke Imammachukwu Michael. All rights reserved.</p>
                     <p>Follow me on social media!</p>
                     <div className='flex gap-4  mt-4'>
-                        <a className="text-yellow-500 hover:text-yellow-900" href='https://www.linkedin.com/in/eleke-michael-bb53a3237/'><FaLinkedin/></a>
-                        <a className="text-yellow-500 hover:text-yellow-900"  href='https://x.com/michael_eleke'><FaTwitter/></a>
-                        <a className="text-yellow-500 hover:text-yellow-900"  href='https://github.com/Micheal-18'><FaGithub/></a>
+                        <a className="text-yellow-500 hover:text-yellow-900 hover:scale-105 transition duration-500" href='https://www.linkedin.com/in/eleke-michael-bb53a3237/'><FaLinkedin/></a>
+                        <a className="text-yellow-500 hover:text-yellow-900 hover:scale-105 transition duration-500"  href='https://x.com/michael_eleke'><FaTwitter/></a>
+                        <a className="text-yellow-500 hover:text-yellow-900 hover:scale-105 transition duration-500"  href='https://github.com/Micheal-18'><FaGithub/></a>
                     </div>
                 </div>
                 <footer className='mt-10'>
